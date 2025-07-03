@@ -70,5 +70,5 @@ This VPC is configured with a custom IPv4 CIDR block and an identifying name tag
 - A /28 CIDR block supports 16 total IP addresses, out of which 11 are usable for resources like EC2 instances, NAT Gateway, etc.
 - The small size (/28) suggests this VPC is designed for testing, demonstration, or small-scale workloads.
 - ✅ The tenancy is set to default, which allows your EC2 instances and other resources to run on shared hardware.
-- This is cost-efficient and sufficient for most use cases.
+- Hardware like Cisco Router , Juniper, Nokia, Cisco Switch etc
 - ✅ A tag is added with key Name and value TechD-VPC to help identify the resource in the AWS console or CLI.
