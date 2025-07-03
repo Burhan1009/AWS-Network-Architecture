@@ -19,5 +19,5 @@ This project showcases a cloud infrastructure with public subnets for frontend/a
 ✅ Provision public & private subnets in multiple AZs  
 ✅ Set up Internet Gateway & NAT Gateway for internet access  
 ✅ Configure route tables & security groups  
-✅ Easy-to-follow steps or IaC (Infrastructure as Code)
+✅ Easy-to-follow steps or IaC (Infrastructure as Code)<br/>
 ✅ Setup VPC Peering
