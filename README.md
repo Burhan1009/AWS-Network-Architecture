@@ -42,3 +42,19 @@ This project showcases a cloud infrastructure with public subnets for frontend/a
 - You just need to prepare a secure, scalable network foundation.
 - Application, EC2 instances, databases, and other services will be deployed later by someone else
 - You want to showcase expertise in AWS networking only.
+
+## 🌐 2️⃣ VPC and More
+- In this option, your project goes beyond the VPC itself and also provisions other AWS resources (compute, storage, etc.)   that run inside the VPC..
+
+### What’s included
+- Everything in VPC Only, plus
+- EC2 Instances (in public or private subnets)
+- RDS/Databases (in private subnets)
+- Application Load Balancers
+- Auto Scaling Groups
+- S3 Buckets
+- IAM roles & policies
+
+#### This option is good if
+- You’re building a complete, end-to-end infrastructure ready to run workloads.
+- You want to demonstrate full-stack AWS cloud deployment skills
