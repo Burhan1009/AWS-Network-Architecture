@@ -62,4 +62,13 @@ This project showcases a cloud infrastructure with public subnets for frontend/a
 ## IPv4 CIDR Block | IPv4 CIDR | IPv6 CIDR block | Tenancy | Tags
 ![image](https://github.com/user-attachments/assets/f2cf3433-2801-422e-bb64-270ed7eb0e53)
 
-
+### 📄 VPC Configuration: Description
+This VPC is configured with a custom IPv4 CIDR block and an identifying name tag for easy management and visibility.
+- ✅ The Name tag (TechD-VPC) is applied to the VPC resource to help distinguish it from other VPCs in the AWS account. Tags in AWS are key-value pairs you can use to organize, search, and track resources effectively.
+- ✅ The IPv4 CIDR block is manually specified as 111.125.251.1/28.
+- This defines the range of private IPv4 addresses available in this VPC.
+- A /28 CIDR block supports 16 total IP addresses, out of which 11 are usable for resources like EC2 instances, NAT Gateway, etc.
+- The small size (/28) suggests this VPC is designed for testing, demonstration, or small-scale workloads.
+- ✅ The tenancy is set to default, which allows your EC2 instances and other resources to run on shared hardware.
+- This is cost-efficient and sufficient for most use cases.
+- ✅ A tag is added with key Name and value TechD-VPC to help identify the resource in the AWS console or CLI.
