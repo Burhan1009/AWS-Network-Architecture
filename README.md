@@ -21,3 +21,24 @@ This project showcases a cloud infrastructure with public subnets for frontend/a
 ✅ Configure route tables & security groups  
 ✅ Easy-to-follow steps or IaC (Infrastructure as Code)<br/>
 ✅ Setup VPC Peering
+
+## VPC Settings : Resources to create 
+![image](https://github.com/user-attachments/assets/50d4c07b-deea-40c5-97e0-99967f3a71d3)
+
+## 🌐 1️⃣ VPC Only
+- In this option, your project focuses only on building the networking layer (VPC).
+  You create and configure just the VPC and its networking components.
+
+### What’s included
+- VPC
+- Subnets (public & private)
+- Internet Gateway
+- NAT Gateway
+- Route Tables
+- Security Groups
+- Network ACLs
+
+#### This option is good if
+- You just need to prepare a secure, scalable network foundation.
+- Application, EC2 instances, databases, and other services will be deployed later by someone else
+- You want to showcase expertise in AWS networking only.
