@@ -58,3 +58,8 @@ This project showcases a cloud infrastructure with public subnets for frontend/a
 #### This option is good if
 - You’re building a complete, end-to-end infrastructure ready to run workloads.
 - You want to demonstrate full-stack AWS cloud deployment skills
+
+## IPv4 CIDR Block | IPv4 CIDR | IPv6 CIDR block | Tenancy | Tags
+![image](https://github.com/user-attachments/assets/f2cf3433-2801-422e-bb64-270ed7eb0e53)
+
+
