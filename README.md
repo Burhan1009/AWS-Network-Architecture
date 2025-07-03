@@ -81,11 +81,32 @@ Click on Create Subnet
 ## 🌩️ AWS VPC: TechD-VPC
 This project creates a custom Virtual Private Cloud (VPC) in AWS with a clearly defined IPv4 CIDR block and name tag for easy identification.
 It lays the foundation for deploying cloud resources in an isolated and secure environment.
-| Property           | Value                           |
+
+```shell | Property           | Value                           |
 |--------------------|---------------------------------|
 | **VPC Name (tag)** | TechD-VPC                       |
 | **VPC ID**         |          |
 | **IPv4 CIDR Block**| 111.125.251.0/28               |
 | **IPv6 CIDR Block**| Not configured                 |
 | **Tenancy**        | Default (shared hardware)      |
+```
+
+![image](https://github.com/user-attachments/assets/c62ebf8c-4088-4389-967f-5ff6315dd197)
+
+✅ Step 1: Name the Subnet
+- Tag Key: Name
+- Tag Value: TechD-Pub-Subnet
+
+✅ Step 2: Choose Availability Zone
+- Region: us-east-1
+- AZ: us-east-1a
+
+✅ Step 3: Select VPC CIDR block
+- VPC CIDR: 111.125.251.0/28
+
+✅ Step 4: Define Subnet CIDR block
+- Subnet CIDR: 111.125.251.0/28 (16 IPs)
+
+✅ Step 5: Add optional tags
+- Additional tags as needed
 
