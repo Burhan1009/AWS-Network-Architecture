@@ -73,3 +73,19 @@ This VPC is configured with a custom IPv4 CIDR block and an identifying name tag
 - Hardware like Cisco Router , Juniper, Nokia, Cisco Switch etc
 - ✅ A tag is added with key Name and value TechD-VPC to help identify the resource in the AWS console or CLI.
 <hr/>
+
+# Subnets Create 
+Click on Create Subnet 
+![image](https://github.com/user-attachments/assets/8fcfdbf6-b831-47d6-8766-5fa299517694)
+
+## 🌩️ AWS VPC: TechD-VPC
+This project creates a custom Virtual Private Cloud (VPC) in AWS with a clearly defined IPv4 CIDR block and name tag for easy identification.
+It lays the foundation for deploying cloud resources in an isolated and secure environment.
+| Property           | Value                           |
+|--------------------|---------------------------------|
+| **VPC Name (tag)** | TechD-VPC                       |
+| **VPC ID**         |          |
+| **IPv4 CIDR Block**| 111.125.251.0/28               |
+| **IPv6 CIDR Block**| Not configured                 |
+| **Tenancy**        | Default (shared hardware)      |
+
