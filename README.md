@@ -93,20 +93,35 @@ It lays the foundation for deploying cloud resources in an isolated and secure e
 
 ![image](https://github.com/user-attachments/assets/c62ebf8c-4088-4389-967f-5ff6315dd197)
 
-✅ Step 1: Name the Subnet
-- Tag Key: Name
-- Tag Value: TechD-Pub-Subnet
+## Public Subnet
 
-✅ Step 2: Choose Availability Zone
-- Region: us-east-1
-- AZ: us-east-1a
+✅ Step 1: Name the Subnet Tag Key: Name | Tag Value: TechD-Pub-Subnet
 
-✅ Step 3: Select VPC CIDR block
-- VPC CIDR: 111.125.251.0/28
+✅ Step 2: Choose Availability Zone - Region: us-east-1 - AZ: us-east-1a
 
-✅ Step 4: Define Subnet CIDR block
-- Subnet CIDR: 111.125.251.0/28 (16 IPs)
+✅ Step 3: Select VPC CIDR block - VPC CIDR: 111.125.251.0/28
 
-✅ Step 5: Add optional tags
-- Additional tags as needed
+✅ Step 4: Define Subnet CIDR block - Subnet CIDR: 111.125.251.0/28 (16 IPs)
+
+✅ Step 5: Add optional tags - Additional tags as needed
+
+## Private Subnet 
+
+Select VPC ID 
+
+![image](https://github.com/user-attachments/assets/e009c36a-fed2-4375-a8df-e9fb890de6cd)
+
+## Subnet Settings 
+![image](https://github.com/user-attachments/assets/39f71dfb-5870-4ad6-8e42-fb10f3e0e1e5)
+
+✅ Step 1: Name the Subnet : Tag Key: Name : Tag Value: TechD-Priv-Subnet
+
+✅ Step 2: Choose Availability Zone : Region: us-east-1 : AZ: us-east-1a
+
+✅ Step 3: Select VPC CIDR block : VPC CIDR: 111.125.251.0/28
+
+✅ Step 4: Define Subnet CIDR block : Subnet CIDR: 111.125.252.0/28 (16 IPs)
+
+
+
 
