@@ -72,3 +72,4 @@ This VPC is configured with a custom IPv4 CIDR block and an identifying name tag
 - ✅ The tenancy is set to default, which allows your EC2 instances and other resources to run on shared hardware.
 - Hardware like Cisco Router , Juniper, Nokia, Cisco Switch etc
 - ✅ A tag is added with key Name and value TechD-VPC to help identify the resource in the AWS console or CLI.
+___________________________________________________ ### VPC Created ________________________________________________________
